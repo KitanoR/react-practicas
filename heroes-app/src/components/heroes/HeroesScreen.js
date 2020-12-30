@@ -41,11 +41,11 @@ export const HeroesScreen = ({ history }) => {
                 </ul>
                 <h5>Characters</h5>
                 <p>{characters}</p>
-                <btn 
+                <button 
                     onClick={regresar}
                     className="btn btn-outline-info">
                     Regresar
-                </btn>
+                </button>
             </div>
         </div>
     )
